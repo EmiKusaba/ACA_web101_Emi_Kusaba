@@ -1,0 +1,25 @@
+.first{
+  
+  background-color:coral;
+  background-color: coral;
+  height: 300px;
+  width: 300px;
+  margin: 50px 50px 50px 50px;
+  padding: 50px;
+}
+.column, .row{
+  height: 100%;
+  width: 100%;
+  border: 2px solid blue;
+}
+.row{
+  border: 2px solid pink;
+}
+.item{
+  /* display: inline-block; * default for column*/
+    width: 150px;
+    height: 30px;
+  /*width:97%; block element*/
+  margin:10px;
+  background-color:rgb(86, 86, 133);
+}
