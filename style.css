@@ -8,21 +8,21 @@ body {
 }
 
 .logo {
-  width: 150px;
-  height: 100px;
-  margin: 3% 10%;
+  margin: 15px;
 }
 
 header {
   display: flex;
   /*grid-template-columns: 40% 60%;*/
   width: 100%;
+  height:100px;
   background:grey;
 }
 
 main {
-  background-image: url('thr3-eyes-MlpyeuKs8GY-unsplash.jpg');
+  background-image: url('steinar-engeland-UtEUUNHvMLs-unsplash.jpg');
   background-size: 100%;
+
   /*height: auto;
   width: 100%;*/
   display: grid;
@@ -42,15 +42,14 @@ nav > a {
   background: transparent;
   padding: 20px;
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
 }
 
-.has-border {
+/*.has-border {
   border-radius: 25px;
-  border: 2px solid #0795C3;
   background: none;
   padding: 20px;
-}
+}*/
 
 nav {
   display: flex;
@@ -68,7 +67,7 @@ nav {
 }
 
 h1 {
-  color: white;
+  color:orange;
   grid-column: 2/3;
   margin: 3% auto;
   border-bottom: 2px solid #1940A9;
@@ -92,8 +91,8 @@ h2 {
 button {
   grid-column: 2/3;
   margin: 3% auto;
-  width: 70%;
-  height: 15%;
+  /*width: 70%;
+  height: 15%;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border-radius: 25px;
@@ -104,6 +103,9 @@ button {
   color: white;
   letter-spacing: 16px;
   font-style: italic;
+}
+#portfolio{
+  background:rgb(75, 136, 206);
 }
 
 /*blog*/

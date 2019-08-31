@@ -8,9 +8,7 @@ body {
 }
 
 .logo {
-  width: 150px;
-  height: 100px;
-  margin: 3% 10%;
+  margin: 15px;
 }
 
 header {
@@ -23,7 +21,7 @@ header {
 }
 
 main {
-  background-image: url('thr3-eyes-MlpyeuKs8GY-unsplash.jpg');
+  background-image: url('steinar-engeland-UtEUUNHvMLs-unsplash.jpg');
   background-size: 100%;
   /*height: auto;
   width: 100%;*/
@@ -44,16 +42,16 @@ nav > a {
   background: transparent;
   padding: 20px;
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
 }
 
-.has-border {
+/*.has-border {
   border-radius: 25px;
   border: 2px solid #0795C3;
   background: none;
   padding: 20px;
 }
-
+*/
 nav {
   display: flex;
   justify-content: flex-end;
@@ -125,4 +123,9 @@ article {
 }
 .logo{
   margin:15px;
+}
+.travel_blog{
+  display:flex;
+  justify-content: center;
+
 }
