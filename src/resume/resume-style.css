@@ -1,11 +1,21 @@
 #header{
-  background-color: black;
+  background-color: rgb(75, 74, 74);
   color: white;
-  padding:5px 50px;
-  
+  padding:15px 50px;
+}
+#position{
+  margin-top:37px;
+  margin-left:32px;
+}
+#name_position{
+  display: flex;
 }
 h1{
   font-size: 2rem;
+  margin-bottom:0px;
+}
+h3{
+  margin:10px 0px;
 }
 h5{
   margin:5px 0px;
@@ -19,11 +29,16 @@ body{
 }
 main{
   padding: 5px 30px;
+  background:whitesmoke;
 }
 ul{
   padding:0px;
 }
 .ex{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.edu{
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
