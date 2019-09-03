@@ -1,17 +1,33 @@
-#header{
+header{
   background-color: rgb(75, 74, 74);
   color: white;
   padding:15px 30px;
+  display:flex;
+  justify-content: space-between;
 }
-#position{
-  margin-top:37px;
-  margin-left:32px;
+section{
+  margin:15px 0px;
 }
+nav{
+  margin-top:32px;
+}
+/* #position{
+ 
+} */
 #name_position{
   display: flex;
+  flex-direction: column;
+}
+img{
+  height:30px;
 }
 p{
   font-family: 'Lato', sans-serif;
+}
+.img{
+  display: flex;
+  border-bottom: 1px solid gray;
+
 }
 h1{
   font-size: 2rem;
@@ -36,14 +52,21 @@ main{
   padding: 5px 30px;
   background:whitesmoke;
 }
-ul{
-  padding:0px;
-}
-.ex{
-  display: grid;
+
+.border{
+  margin: 7px ;
+} 
+ .ex{
+  display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
-}
+} 
+/* .detail{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}  */
 .edu{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
