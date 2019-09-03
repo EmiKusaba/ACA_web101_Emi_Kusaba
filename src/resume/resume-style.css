@@ -1,0 +1,29 @@
+#header{
+  background-color: black;
+  color: white;
+  padding:5px 50px;
+  
+}
+h1{
+  font-size: 2rem;
+}
+h5{
+  margin:5px 0px;
+}
+h6{
+  margin: 5px 0px;
+}
+body{
+  margin:0px 100px;
+  border:1px solid black;
+}
+main{
+  padding: 5px 30px;
+}
+ul{
+  padding:0px;
+}
+.ex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
