@@ -8,6 +8,9 @@ header{
 section{
   margin:15px 0px;
 }
+a{
+  color:rgb(128, 215, 241);
+}
 nav{
   margin-top:32px;
 }
