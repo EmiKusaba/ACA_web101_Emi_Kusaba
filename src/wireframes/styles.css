@@ -65,5 +65,16 @@ main{
   grid-template-columns: 1fr 1fr 1fr;
   margin:10px 0px;
 } 
+/* .detail:nth-of-type(2) .detail:nth-of-type(4){
+  background-color: gray;
+} */
+#ex-2 .detail, #ex-4 .detail{
+  background-color: #c7c5ca4a;
+}
+
+
+#edu-2, #edu-4{
+  background-color: #c7c5ca4a;
+}
 
 
