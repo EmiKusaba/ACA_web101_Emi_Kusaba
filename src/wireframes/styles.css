@@ -56,17 +56,14 @@ main{
 .border{
   margin: 7px ;
 } 
- .ex{
+ /* .ex{
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
-} 
-/* .detail{
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr;
-
 }  */
-.edu{
-  display:grid;
+.detail{
+  display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
-}
+  margin:10px 0px;
+} 
+
 
