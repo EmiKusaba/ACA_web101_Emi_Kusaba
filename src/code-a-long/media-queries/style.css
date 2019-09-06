@@ -1,0 +1,29 @@
+body{
+  /* background-color: pink; */
+  margin:0px;
+}
+*{
+  box-sizing: border-box;
+}
+.main-container{
+  height:100%;
+  width:100%;
+  border:1px solid yellow;
+}
+.main-container .items{
+  height:300px;
+  width:300px;
+  background-color: red;
+  margin:10px auto;
+}
+@media(min-width:576px){
+  .main-container .items{
+    display: inline-block;
+  }
+  .main-container .items:nth-of-type(4){
+  background-color: blue;
+}
+}
+@media(min-width:1440px){
+  .main-container .items{
+    
