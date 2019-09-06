@@ -1,68 +1,110 @@
-body{
-  margin:3%;
+body {
+  margin: 3%;
 }
-button{
-  color:white;
-  border:1px solid rgb(255, 145, 0);
-  background-color:  rgb(255, 145, 0);
-  width:40vw;
-  height:10vh;
+
+* {
+  box-sizing: border-box;
 }
-h1{
-  font-size:1.75rem;
+
+button {
+  color: white;
+  border: 1px solid rgb(255, 145, 0);
+  background-color: rgb(255, 145, 0);
+  width: 40vw;
+  height: 10vh;
 }
-p{
-  font-size:1rem;
+
+h1 {
+  font-size: 1.75rem;
 }
-#img{
+
+h3 {
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#img {
   width: 100%;
 }
+
+.responsive {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
 /*footer*/
 
-.footer{
+.footer {
   background-color: rgb(63, 59, 59);
-  padding:5%;
-  margin-top:10%;
-  display:flex;
+  padding: 5%;
+  margin-top: 10%;
+  display: flex;
   justify-content: space-around;
-  
 }
-#title{
-  color:white;
+
+.title {
+  color: rgb(10, 10, 10);
 }
-.words{
-  color:white;
+
+.words {
+  color: white;
   border-bottom: 1px solid white;
 }
+
 /* Small and up (Landscape Phones) */
+
 @media (min-width: 576px) {
-  button{
-    color:white;
-    border:1px solid rgb(255, 145, 0);
-    background-color:  rgb(255, 145, 0);
-    width:20vw;
-    height:8vh;
-
-}
-
-/* Medium and up (Tablets) */
-@media (min-width: 768px) {
-  button{
-    color:white;
-    border:1px solid rgb(255, 145, 0);
-    background-color:  rgb(255, 145, 0);
-    width:30vw;
-    height:10vh;
-
-}
-}
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-  button{
-    color:white;
-    border:1px solid rgb(255, 145, 0);
-    background-color:  rgb(255, 145, 0);
-    width:30vw;
-    height:10vh;
-}
-}
+  button {
+    font-size: 1rem;
+    color: rgb(243, 230, 201);
+    border: 3px solid rgb(255, 115, 0);
+    background-color: rgb(255, 145, 0);
+    width: 20vw;
+    height: 8vh;
+  }
+  /* Medium and up (Tablets) */
+  @media (min-width: 768px) {
+    button {
+      font-size: 1.5rem;
+      color: rgb(221, 85, 85);
+      border: 3px solid rgb(146, 7, 77);
+      background-color: pink;
+      width: 30vw;
+      height: 10vh;
+    }
+  }
+  /* Large and up (Desktops) */
+  @media (min-width: 992px) {
+    button {
+      font-size: 2rem;
+      color: rgb(223, 221, 247);
+      border: 3px solid rgb(2, 2, 46);
+      background-color: rgb(88, 57, 199);
+      width: 32vw;
+      height: 11vh;
+    }
+    #img {
+      width: 60%;
+      height: auto;
+    }
+    .title {
+      width: 400px;
+      height: auto;
+    }
+    .responsive {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(226, 226, 247);
+    }
+    .box2 {
+      margin: 3%;
+    }
+    body {
+      margin: 0% 5%;
+    }
+  }
