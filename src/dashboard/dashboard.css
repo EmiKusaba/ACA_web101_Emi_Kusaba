@@ -23,6 +23,9 @@ h1{
   display: grid;
   grid-template-rows: 30% 30% 30%;
 }
+#item6{
+margin-top: -3px;
+}
 
 @media  (min-width: 500px) {
   .images{
