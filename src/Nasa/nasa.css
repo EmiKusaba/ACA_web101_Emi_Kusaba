@@ -1,0 +1,48 @@
+body{
+  width:850px;
+  margin:0 auto;
+}
+
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  width: 850px;
+  height: 450px;
+  background-image: url(./img/sk-2017_04_article_text_width_desktop_2x.jpg);
+  color:rgb(0, 0, 255,0.8);
+  font-size: 5rem;
+  font-family: 'Source Serif Pro', serif;
+}
+section{
+  display:flex;
+  height:324px;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+article{
+  width: 270px;
+  height:374px;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+
+}
+.box1{
+  width:200px;
+  height:20px;
+  background-color: white;
+}
+.box2{
+  width:200px;
+  height:60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+button{
+  background-color:rgb(58, 57, 57);
+  color: white;
+  
+}
