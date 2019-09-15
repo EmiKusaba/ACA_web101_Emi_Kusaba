@@ -16,8 +16,13 @@ img{
 h1{
   font-size:3rem;
   font-family: 'Lato', sans-serif;
+  padding:20px;
 }
-
+ul{
+  padding:20px;
+  padding-left:20px !important;
+  
+}
 
 .small_items{
   display: grid;
