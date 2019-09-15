@@ -18,7 +18,7 @@ body{
 
 /*box items*/
 
-@media (min-width:480px){
+@media (min-width:470px){
   .box{
     height:2000px;
     display:grid;
@@ -30,9 +30,10 @@ body{
   .item{
     height: 98%;
     width:98%;
-    margin:1%;
-    
+    margin:1%;   
+    background-repeat: no-repeat;
   }
+
   .navs{
     text-align: center;
     height:60px;
@@ -73,10 +74,12 @@ body{
     margin:5px;
   }
   .item{
+    
     height: 90%;
     width:90%;
     margin:1%;
     padding:3%;
+    background-repeat: no-repeat;
     
   }
   #item_1{
@@ -102,7 +105,7 @@ body{
     background-size:100%;
     grid-column: 4/6;
     grid-row: 2/4;
-    margin-top:10px;
+    margin-top:20px;
   }
   #item_5{
     background-image: url('./img/right_top.png'); 
