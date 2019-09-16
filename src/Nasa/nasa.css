@@ -10,8 +10,10 @@ main{
   margin:0 auto;
   width: 850px;
   height: 450px;
-  background-image: url(./img/sk-2017_04_article_text_width_desktop_2x.jpg);
-  color:rgb(0, 0, 255,0.8);
+  background-image: url(./img/lemur-timelapse-800.gif);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  color: rgb(255, 255, 255, 0.8);
   font-size: 5rem;
   font-family: 'Source Serif Pro', serif;
 }
@@ -19,7 +21,7 @@ section{
   display:flex;
   height:324px;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-around; */
 
 }
 article{
