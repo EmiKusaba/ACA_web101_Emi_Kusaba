@@ -61,7 +61,7 @@ header {
   height: 30vh;
 } */
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .section_ {
     display: flex;
     flex-direction: row;
@@ -77,7 +77,7 @@ header {
   .section_img {
     /* border-radius: 50%; */
     width: 85vw;
-    height: 50vh;
+    height: 40vh;
     margin: 5% 0%;
   }
   .footer{
@@ -96,7 +96,7 @@ header {
   color: antiquewhite;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 451px) and (max-width: 768px) {
   .section_ {
     display: flex;
     flex-direction: row;
@@ -123,7 +123,7 @@ header {
   grid-template-rows: 33% 33% 33%;
 }
 }
-@media (min-width: 900px) {
+@media (min-width: 769px) {
   .section_ {
     display: flex;
     flex-direction: row;
