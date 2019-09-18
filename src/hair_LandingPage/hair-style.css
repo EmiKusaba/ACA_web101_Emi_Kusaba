@@ -54,12 +54,10 @@ header {
 
 } */
 
-/* .section_ {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} */
+.section_img {
+  border: solid 3px black;
+}
+  
 
 /* .section_img {
   /* border-radius: 50%; */
