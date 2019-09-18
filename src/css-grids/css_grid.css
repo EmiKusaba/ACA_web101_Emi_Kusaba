@@ -20,7 +20,7 @@ body{
 
 @media (min-width:470px){
   .box{
-    height:2000px;
+    height:2001px;
     display:grid;
     grid-template-columns:1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
