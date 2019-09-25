@@ -37,5 +37,12 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 95%;
-  height: auto;
+  height: 200px;
+  /* border: 1px solid grey; */
+}
+.specialities{
+border: 1px solid grey;
+display: flex;
+justify-content: center;
+padding: 2%;
 }
