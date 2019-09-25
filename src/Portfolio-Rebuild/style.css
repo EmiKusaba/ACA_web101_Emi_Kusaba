@@ -1,48 +1,195 @@
-h1{
+h1 {
   font-size: 2rem;
   font-family: 'Merriweather', serif;
   color: rgb(10, 87, 10);
 }
-main{
-  margin: 0 5%;
-}
-.jumbotron, .jumbotron-fluid{
-  background-image: url('https://media.giphy.com/media/9J8K8WEWLXZk7s0OMB/giphy.gif');
+
+h5 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.ex-3 button.b-1, .ex-3 button.b-2{
-  background: -moz-linear-gradient(top,  hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
-  background: -webkit-linear-gradient(top,  hsl(194, 100%, 50%) 0%,hsl(208, 100%, 50%) 100%);
-  background: linear-gradient(to bottom,  hsl(194, 100%, 50%) 0%,hsl(208, 100%, 50%) 100%);
+main {
+  margin: 5% 5%;
+}
+
+section {
+  margin: 5% 5%;
+}
+
+.jumbotron, .jumbotron-fluid {
+  background-image: url('https://media.giphy.com/media/9J8K8WEWLXZk7s0OMB/giphy.gif');
+  padding: 5%;
+  height: 50vh;
+}
+
+.ex-3 button.b-1, .ex-3 button.b-2 {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
   margin-right: .25rem;
   padding: 1%;
   /* border-radius: 10%; */
 }
 
-.ex-3 button.b-1:hover{
-  background: -moz-linear-gradient(top,  hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
-  background: -webkit-linear-gradient(top,  hsl(194, 100%, 40%) 0%,hsl(208, 100%, 40%) 100%);
-  background: linear-gradient(to bottom,  hsl(194, 100%, 40%) 0%,hsl(208, 100%, 40%) 100%);
+.ex-3 button.b-1:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
 }
-.ex-3 button.b-2:hover{
-  background: -moz-linear-gradient(top,  hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
-  background: -webkit-linear-gradient(top,  hsl(194, 100%, 40%) 0%,hsl(208, 100%, 40%) 100%);
-  background: linear-gradient(to bottom,  hsl(194, 100%, 40%) 0%,hsl(208, 100%, 40%) 100%);
+
+.ex-3 button.b-2:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
   padding: 1%;
   /* border-radius: 10%; */
 }
+
 /* My Specialities */
 
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 95%;
+.specialities {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  margin: 1%;
   height: 200px;
-  /* border: 1px solid grey; */
 }
-.specialities{
-border: 1px solid grey;
-display: flex;
-justify-content: center;
-padding: 2%;
+
+/* How I built Skills */
+
+/* inform */
+.contactform{
+  background: -moz-linear-gradient(top, hsl(194, 63%, 95%) 0%, hsl(208, 72%, 89%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 87%, 75%) 0%, hsl(208, 89%, 75%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 79%, 74%) 0%, hsl(208, 90%, 69%) 100%);
+  margin-top: 2%;
+  padding: 2%;
+}
+input {
+  border: 2px solid rgb(76, 76, 77);
+  margin-top: -3%;
+}
+
+button {
+  background-color: rgb(0, 102, 255);
+  color: white;
+}
+.myphoto{
+  width: 50%;
+  border-radius: 50%; 
+  margin-bottom: 3%;
+  
+}
+/* button */
+.button{
+  margin: 1%;
+}
+#submit {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  margin-right: .25rem;
+  padding: 1%;
+}
+
+#submit:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+}
+#reset{
+  background-color: grey;
+  color: white;
+}
+/* footer */
+.footer{
+  margin: 0;
+  padding: 7%;
+  background-color: grey;
+}
+.emifooter{
+  color: white;
+}
+a,.fmenu{
+  display:flex;
+  justify-content: space-around;
+  color: white !important;
+  padding: 3%;
+}
+.icons{
+  float: right;
+}
+@media (max-width: 450px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    height: 200px;
+    margin: 1%;
+    margin-bottom: 650px;
+  }
+  .specialities {
+    height: 200px;
+  }
+  .video {
+    width: 90%;
+    height: 50%;
+  }
+  #message {
+    height: 70px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    height: 200px;
+    margin: 1%;
+    margin-bottom: 250px;
+    /* border: 1px solid grey; */
+  }
+  .contactform{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+}
+  .video {
+    width: 80%;
+    height: 60%;
+  }
+  #message {
+    height: 130px;
+    width: 250px;
+  }
+  
+}
+@media (min-width: 701px){
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 95%;
+    height: 200px;
+    margin: 1%;
+    /* border: 1px solid grey; */
+  }
+  .video {
+    width: 60%;
+    height: 60%;
+  }
+  #message {
+    height: 150px;
+    width: 300px;
+  }
+.contactform{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  padding: 5%;
+}
 }
