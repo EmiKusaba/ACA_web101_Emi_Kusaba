@@ -9,7 +9,9 @@ h5 {
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+.navbar-brand{
+  color: black !important;
+}
 main {
   margin: 5% 5%;
 }
@@ -65,8 +67,8 @@ section {
   background: -moz-linear-gradient(top, hsl(194, 63%, 95%) 0%, hsl(208, 72%, 89%) 100%);
   background: -webkit-linear-gradient(top, hsl(194, 87%, 75%) 0%, hsl(208, 89%, 75%) 100%);
   background: linear-gradient(to bottom, hsl(194, 79%, 74%) 0%, hsl(208, 90%, 69%) 100%);
-  margin-top: 2%;
-  padding: 2%;
+  margin-top: 5%;
+  padding: 10%;
 }
 input {
   border: 2px solid rgb(76, 76, 77);
@@ -135,14 +137,23 @@ a,.fmenu{
     height: 200px;
   }
   .video {
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: 40%;
   }
   #message {
     height: 70px;
-    width: 150px;
+    width: 200px;
+  }
+  .contactform{
+    padding: 3% 3%;
+    text-align: center;
+  }
+  .fmenu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 }
+
 
 @media (min-width: 451px) and (max-width: 700px) {
   .grid {
