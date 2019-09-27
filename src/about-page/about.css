@@ -64,7 +64,9 @@ a, .fmenu {
 ol {
   padding: 0 !important;
 }
-
+.icon{
+  height: 5vh;
+}
 /* Main */
 
 /* img */
@@ -78,9 +80,7 @@ ol {
   .section-1 {
     text-align: center;
   }
-  .icons {
-    
-  }
+  
 }
 
 @media (min-width:451px) and (max-width:770px) {
