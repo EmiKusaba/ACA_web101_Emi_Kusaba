@@ -1,0 +1,65 @@
+h1 {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: rgb(10, 87, 10);
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 3%;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-size: .85rem;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+main {
+  margin: 5% 5%;
+}
+
+section {
+  margin: 5% 5%;
+}
+/* footer */
+
+.footer {
+  margin: 0;
+  padding: 7%;
+  background-color: grey;
+  width: 100%;
+}
+
+.emifooter {
+  color: white;
+}
+
+a, .fmenu {
+  display: flex;
+  justify-content: space-around;
+  color: white !important;
+  padding: 3%;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ol {
+  padding: 0 !important;
+}
+
+.icon {
+  height: 5vh;
+}
