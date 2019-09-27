@@ -6,6 +6,7 @@ h1 {
 
 h4 {
   font-size: 1.25rem;
+  margin-top: 3%;
 }
 
 h5 {
@@ -70,6 +71,10 @@ ol {
 }
 
 /* Main */
+.skills {
+  background-color: antiquewhite;
+  padding: 3%;
+}
 
 /* img */
 
@@ -81,9 +86,10 @@ ol {
   }
   .section-1 {
     text-align: center;
+    background-color: burlywood;
   }
-  .skills {
-    background-color: antiquewhite;
+i{
+    padding-top: 5% 0 !important;
   }
 }
 
@@ -95,10 +101,10 @@ ol {
   }
   .section-1 {
     text-align: center;
+    background-color: burlywood;
+    margin-bottom: 3% 0;
   }
-  .skills {
-    background-color: antiquewhite;
-  }
+  
 }
 
 @media (min-width:991px) {
@@ -134,7 +140,6 @@ ol {
   .skills {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: antiquewhite;
     margin: 1%;
   }
 }
