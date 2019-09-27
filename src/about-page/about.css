@@ -42,6 +42,7 @@ section {
 
 .footer {
   margin: 0;
+  width: 100%;
   padding: 7%;
   background-color: grey;
 }
