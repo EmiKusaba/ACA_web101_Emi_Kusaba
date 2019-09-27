@@ -3,21 +3,26 @@ h1 {
   font-family: 'Merriweather', serif;
   color: rgb(10, 87, 10);
 }
-h4{
+
+h4 {
   font-size: 1.25rem;
 }
+
 h5 {
   font-size: 1rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 p {
   font-size: .75rem;
 }
-.navbar-brand{
+
+.navbar-brand {
   color: black !important;
 }
+
 main {
   margin: 5% 5%;
 }
@@ -25,43 +30,84 @@ main {
 section {
   margin: 5% 5%;
 }
+
 /* Skill */
-.list{
+
+.list {
   margin: 3%;
 }
+
 /* footer */
-.footer{
+
+.footer {
   margin: 0;
   padding: 7%;
   background-color: grey;
 }
-.emifooter{
+
+.emifooter {
   color: white;
 }
-a,.fmenu{
-  display:flex;
+
+a, .fmenu {
+  display: flex;
   justify-content: space-around;
   color: white !important;
   padding: 3%;
 }
-.icons{
+
+.icons {
   display: flex;
   justify-content: flex-end;
 }
-ol{
+
+ol {
   padding: 0 !important;
 }
+
 /* Main */
+
 /* img */
 
-@media (max-width:450px){
-  .my-img{
+@media (max-width:450px) {
+  .my-img {
     width: 40vw;
     height: 70hv;
     margin: 3%;
-    
   }
-  .section-1{
+  .section-1 {
     text-align: center;
+  }
+}
+
+@media (min-width:451px) and (max-width:770px) {
+  .my-img {
+    width: 50vw;
+    height: 80hv;
+    margin: 3%;
+  }
+  .section-1 {
+    text-align: center;
+  }
+}
+
+@media (min-width:771px) {
+  .my-img {
+    width: 30vw;
+    height: 60hv;
+    margin: 3%;
+  }
+  .section-1 {
+    text-align: center;
+  }
+  .section-about {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .about-me {
+    margin: 5% 0;
+  }
+  .section-2 {
+    margin: 3%;
   }
 }
