@@ -1,0 +1,116 @@
+.container {
+  background-image: url('./img/halloween-2837936_1280.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height:100%;
+  display: block;
+
+}
+.content{
+  float:right;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  padding: 1%;
+  background-color: rgb(255, 145, 0);
+  color: white;
+  margin: 1%;
+}
+
+.detail {
+  color: white;
+  border: 1px solid white;
+  padding: 2%;
+  display: inline-block;
+  margin: 1%;
+  margin-right: 3%;
+  float: right;
+}
+
+.spooky {
+  display: inline-block;
+  color: white;
+  font-family: 'Underdog', cursive;
+}
+
+.halloween {
+  display: inline-block;
+  color: yellow;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.witch{
+  width: 70px;
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p{
+    font-size: 9px;
+  }
+  .animated, .fadeOutRight {
+    width: 70px;
+  }
+  .halloween {
+    margin-left: 150px;
+  }
+  .spooky {
+    margin-left: 150px;
+    padding-top: 15px;
+  }
+  .witch{
+    width: 30px;
+  }
+
+}
+
+@media (min-width: 451px) and (max-width: 769px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .halloween {
+    margin-left: 350px;
+  }
+  .spooky {
+    margin-left: 350px;
+    padding-top: 25px;
+  }
+  .witch{
+    width: 70px;
+  }
+  .detail{
+    margin-right:50px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 770px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .halloween {
+    margin-left: 450px;
+  }
+  .spooky {
+    margin-left: 450px;
+    padding-top: 35px;
+  }
+  .witch{
+    width: 80px;
+  }
+  .detail{
+    margin-right:150px;
+    margin-top: 50px;
+  }
+}
