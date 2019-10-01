@@ -34,7 +34,6 @@ button {
   display: inline-block;
   margin: 1%;
   margin-right: 3%;
-  float: right;
 }
 
 .spooky {
@@ -63,14 +62,18 @@ button {
     width: 70px;
   }
   .halloween {
-    margin-left: 150px;
+    margin-left: 200px;
   }
   .spooky {
-    margin-left: 150px;
+    margin-left: 200px;
     padding-top: 15px;
   }
   .witch{
     width: 30px;
+  }
+  .detail{
+    margin-left:45%;
+    margin-top: 5px;
   }
 
 }
@@ -80,17 +83,17 @@ button {
     font-size: 3rem;
   }
   .halloween {
-    margin-left: 350px;
+    margin-left: 50%;
   }
   .spooky {
-    margin-left: 350px;
+    margin-left: 50%;
     padding-top: 25px;
   }
   .witch{
     width: 70px;
   }
   .detail{
-    margin-right:50px;
+    margin-left: 45%;
     margin-top: 50px;
   }
 }
@@ -100,17 +103,17 @@ button {
     font-size: 4rem;
   }
   .halloween {
-    margin-left: 450px;
+    margin-left: 50%;
   }
   .spooky {
-    margin-left: 450px;
-    padding-top: 35px;
+    margin-left: 50%;
+    padding-top: 150px;
   }
   .witch{
     width: 80px;
   }
   .detail{
-    margin-right:150px;
+    margin-left: 50%;
     margin-top: 50px;
   }
 }
