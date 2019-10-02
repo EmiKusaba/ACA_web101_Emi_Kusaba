@@ -138,8 +138,7 @@ label {
   margin-bottom: 0;
 }
 
-sup {
-  color: red;
+sup {color: rgba(255, 0, 0, 0.71);
 }
 
 /* footer */
