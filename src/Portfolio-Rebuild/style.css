@@ -14,6 +14,9 @@ h5 {
 .navbar-brand{
   color: black !important;
 }
+.nav-link{
+  color: black !important;
+}
 main {
   margin: 5% 5%;
 }
@@ -146,6 +149,7 @@ a,.fmenu{
   }
   .specialities {
     height: 200px;
+    padding: 3em;
   }
   .video {
     width: 100%;
@@ -174,6 +178,7 @@ a,.fmenu{
     height: 200px;
     margin: 1%;
     margin-bottom: 250px;
+    grid-gap: 1em;
     /* border: 1px solid grey; */
   }
   .contactform{
@@ -197,7 +202,7 @@ a,.fmenu{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 95%;
     height: 200px;
-    margin: 1%;
+    grid-gap: 1em;
     /* border: 1px solid grey; */
   }
   .video {
@@ -207,6 +212,9 @@ a,.fmenu{
   #message {
     height: 150px;
     width: 300px;
+  }
+  .specialities {
+    padding: .4em;
   }
 .contactform{
   display: grid;
