@@ -19,6 +19,9 @@ h5 {
 p {
   font-size: .85rem;
 }
+.nav-link{
+  color: black !important;
+}
 
 .navbar-brand {
   color: black !important;
@@ -122,6 +125,7 @@ i{
     background-color: burlywood;
     text-align: center;
   }
+
   .section-about {
     display: grid;
     grid-template-columns: 40% 60%;
