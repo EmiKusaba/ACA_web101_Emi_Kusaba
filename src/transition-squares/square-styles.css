@@ -1,0 +1,88 @@
+main {
+  width: 900px;
+  height: 900px;
+  text-align: center;
+  background-color: beige;
+  margin: 10% 10%;
+  padding:100px 0;
+}
+
+.squares {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 20%;
+  margin: 2% 40%;
+}
+
+/* ODD */
+
+main:hover .squares#one {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color: #ADD4D9;
+}
+
+main:hover .squares#tree {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color: #D0EFF2;
+}
+
+main:hover .squares#five {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color:#6BBFBF;
+  
+}
+
+main:hover .squares#seven {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color:#7FC7BD;
+}
+
+main:hover .squares#nine {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color: #208C81;
+}
+
+main:hover .squares#eleven {
+  transform: scale(2.0);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+/* EVEN */
+main:hover .squares#two {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+main:hover .squares#four{
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: rgb(84, 129, 140);
+}
+main:hover .squares#six {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+main:hover .squares#eight {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+main:hover .squares#ten {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+main:hover .squares#twelve {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+}
+  
