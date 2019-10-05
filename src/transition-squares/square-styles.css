@@ -1,5 +1,5 @@
 main {
-  width: 900px;
+  width: 100%;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -81,47 +81,47 @@ main {
 
 /* ODD */
 .square#one {
-  background-color: #ADD4D9;
+  background-color: #4E8DA6;
 }
 
 .square#three {
-  background-color: #D0EFF2;
+  background-color: #097337;
 }
 
 .square#five {
-  background-color:#6BBFBF;
+  background-color:#F2E1C2;
   
 }
 
 .square#seven {
-  background-color:#7FC7BD;
+  background-color:#F29F05;
 }
 
 .square#nine {
-  background-color: #208C81;
+  background-color: #F2B199;
 }
 
 .square#eleven {
-  background-color: #6C8C54;
+  background-color:#729577;
 }
 /* EVEN */
 .square#two {
-  background-color: #6C8C54;
+  background-color: #4C4430;
 }
 .square#four {
-  background-color: rgb(84, 129, 140);
+  background-color: #BDC3C1;
 }
 .square#six {
-  background-color: #6C8C54;
+  background-color: #FBE666;
 }
 .square#eight {
-  background-color: #6C8C54;
+  background-color: #F5512D;
 }
 .square#ten {
-  background-color: #6C8C54;
+  background-color: #F1AD58;
 }
 .square#twelve {
-  background-color: #6C8C54;
+  background-color: #A3D1D7;
 }
 
 
