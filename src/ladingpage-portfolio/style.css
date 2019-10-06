@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -13,23 +12,25 @@ body {
   color: hsla(132, 17%, 99%, 1);
   padding: 30px;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
 /* *~*~*~*~ header *~*~*~*~  */
+
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(96, 215, 245, 0.8),
-      rgba(1, 60, 107, 0.8)
-    ),
-    url('./img/ella-jardim-A51hrcFHT-Y-unsplash.jpg');
+  background-image: linear-gradient( to right bottom, rgba(96, 215, 245, 0.8), rgba(1, 60, 107, 0.8)), url('./img/ella-jardim-A51hrcFHT-Y-unsplash.jpg');
   background-size: cover;
-
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 }
+
 /* *~*~*~*~ nav *~*~*~*~  */
+
 nav {
   height: 80px;
   display: flex;
@@ -51,7 +52,7 @@ nav ul.nav-items--desktop {
   flex: 1;
 }
 
-nav ul.nav-items--mobile{
+nav ul.nav-items--mobile {
   display: none;
   height: 100%;
   width: 100%;
@@ -60,10 +61,7 @@ nav ul.nav-items--mobile{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(126, 213, 111, 0.8),
-    rgba(40, 180, 133, 1) );
+  background-image: linear-gradient( to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 1));
   animation: moveInRight 0.5s ease-out;
 }
 
@@ -96,13 +94,15 @@ nav ul li {
   text-align: center;
   transition: all 225ms ease-in-out;
 }
-#emi-logo{
+
+#emi-logo {
   width: 50px;
   animation: moveFromBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
-
 }
+
 /* *~*~*~*~ header text *~*~*~*~ */
+
 .text-box {
   display: flex;
   flex-direction: column;
@@ -135,8 +135,7 @@ nav ul li {
   animation: moveInRight 1s ease-out;
 }
 
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
@@ -188,41 +187,59 @@ nav ul li {
   nav ul.nav-items--desktop {
     display: none;
   }
-
   nav .mobile-nav-button {
     display: flex;
   }
-
   .showNav {
     display: flex !important;
     /* animation: moveInRight 0.5s ease-out; */
   }
+  body {
+    height: 200vh;
+  }
+  .heading-primary-main{
+    font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  }
+  .heading-primary{
+    padding:2%;
+  }
+  
+  a.btn, .btn-white, .btn-animated{
+ margin:5px 10px;
+  }
+ 
 }
-@media (max-width: 768px) {
+
+@media (min-width: 577px)and(max-width:992px){
   body {
     padding: 0;
   }
-
+  header {
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+  }
   nav ul {
     flex: 2;
   }
-
   .text-box .heading-primary span:nth-of-type(1) {
     font-size: 48px;
     letter-spacing: 22px;
   }
-
   .text-box .heading-primary span:nth-of-type(2) {
     font-size: 16px;
     letter-spacing: 11.5px;
   }
-
   .text-box .btn {
     padding: 12px 24px;
   }
 }
 
 /* ///////  KEYFRAMES  ///////// */
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
