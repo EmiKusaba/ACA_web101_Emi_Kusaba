@@ -1,39 +1,88 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 
   <title>checkpoint2</title>
 </head>
+
 <body>
-    <header class="header">
-      <!--nav-->
-        <nav>
-          <ul class="nav-items--desktop">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
-          </ul>
-          <div class="mobile-nav-button" onclick="openNav()">
-            <span></span>
-            <span></span>
-            <span></span>
+  <header class="header">
+    <!--nav-->
+    <nav>
+      <ul class="nav-items--desktop">
+        <li>HOME</li>
+        <li>About</li>
+        <li>Location / Contact</li>
+        <li>Shop</li>
+        <li>PRESS</li>
+      </ul>
+      <div class="mobile-nav-button" onclick="openNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-items--mobile">
+        <li>HOME</li>
+        <li>About</li>
+        <li>Location / Contact</li>
+        <li>Shop</li>
+        <li>PRESS</li>
+      </ul>
+    </nav>
+    <!--heroImage-->
+    <div class="board">
+      <h3>THE PETTERN OF COFFEE AND PEOPLE</h3>
+      <img src="images/logo(2).png" class="logo">
+    </div>
+    <img src="./images/demi-deherrera-L-sm1B4L1Ns-unsplash.jpg" class="firstimg">
+    
+
+    <article class="article">
+    <h2 class="news"> Houndstooth Coffee News</h2>
+      <div class="cards">
+        <div class="card1 box">
+            <img src="./images/logo(2).png" class="logo_">
+        </div>
+        <div class="card2 box" >
+            <img src="./images/logo(2).png" class="logo_">
+        </div>
+        <div class="card3 box">
+            <img src="./images/logo(2).png" class="logo_">
+        </div>
+        <div class="card4 box">
+            <img src="./images/logo(2).png" class="logo_">
+        </div>
+
+      </div>
+    </article>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/nathan-dumlao-KixfBEdyp64-unsplash.jpg" class="d-block " height="auto" width="80% "alt="...">
           </div>
-          <ul class="nav-items--mobile">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
-          </ul>
-        </nav>
-<!--heroImage-->
-
-
-  
+          <div class="carousel-item">
+            <img src="./images/nathan-dumlao-6VhPY27jdps-unsplash.jpg" class="d-block " height="auto" width="80% "alt="...">
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="./checkpoint2.js"></script>
 </body>
+
 </html>

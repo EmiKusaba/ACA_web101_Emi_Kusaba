@@ -1,5 +1,13 @@
+h2{
+  font-size: 1.75rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+
 nav{
   background-color: grey;
+  color: white;
 }
 /* *~*~*~*~ nav *~*~*~*~  */
 nav {
@@ -34,8 +42,8 @@ nav ul.nav-items--mobile{
   left: 0;
   background-image: linear-gradient(
     to right bottom,
-    rgba(126, 213, 111, 0.8),
-    rgba(40, 180, 133, 1) );
+    rgba(107, 108, 109, 0.8),
+    rgb(48, 48, 49) );
   animation: moveInRight 0.5s ease-out;
 }
 
@@ -67,4 +75,74 @@ nav ul li {
   flex: 1;
   text-align: center;
   transition: all 225ms ease-in-out;
+}
+.board{
+  background-color: black;
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+.logo{
+  width: 200px;
+}
+.logo_{
+  width: 100px;
+}
+.news{
+  padding: 3%;
+}
+.firstimg{
+  width: 100%;
+  height: auto;
+}
+article{
+  margin: 0 5%;
+}
+.cards{
+  padding-bottom: 3%;
+}
+.box{
+  border: 1px solid rgb(110, 109, 109);
+}
+.d-block{
+  margin:0 10%;
+}
+@media (max-width: 576px) {
+  nav ul.nav-items--desktop {
+    display: none;
+  }
+  nav .mobile-nav-button {
+    display: flex;
+  }
+  .showNav {
+    display: flex !important;
+    /* animation: moveInRight 0.5s ease-out; */
+  }
+  #carouselExampleSlidesOnly{
+    display: none; 
+  }
+ 
+/* Media */
+@media (max-width: 998px) {
+  body {
+    padding: 0;
+  }
+
+  nav ul {
+    flex: 2;
+  }
+
+  .text-box .heading-primary span:nth-of-type(1) {
+    font-size: 48px;
+    letter-spacing: 22px;
+  }
+
+  .text-box .heading-primary span:nth-of-type(2) {
+    font-size: 16px;
+    letter-spacing: 11.5px;
+  }
+
+  .text-box .btn {
+    padding: 12px 24px;
+  }
 }
