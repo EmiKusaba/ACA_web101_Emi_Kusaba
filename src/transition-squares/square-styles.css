@@ -1,0 +1,131 @@
+main {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  transition-property: width, height, margin, transform;
+  transition-delay: 0s, 0s, 500ms, 500ms;
+}
+
+.lane:nth-child(odd) .square {
+  transition-duration: 300ms, 300ms, 1s, 1s;
+  transition-timing-function: linear, linear, linear, linear;
+}
+
+.lane:nth-child(odd):hover .square {
+  width: 100px;
+  height: 100px;
+  margin: 0% 0% 0% 90%;
+  transform: rotate(720deg);
+}
+
+.lane:nth-child(even) .square {
+  transition-duration: 300ms, 300ms, 1s, 1s;
+  transition-timing-function: linear, linear, linear, linear;
+}
+
+.lane:nth-child(even):hover .square {
+  width: 25px;
+  height: 25px;
+  margin: 0% 90% 0% 0%;
+  transform: rotate(-720deg);
+}
+
+.lane:nth-child(odd) .square {
+  transition-duration: 300ms, 300ms, 1s, 1s;
+  transition-timing-function: linear, linear, linear, linear;
+}
+
+.lane:nth-child(odd):hover .square {
+  width: 100px;
+  height: 100px;
+  margin: 0% 0% 0% 90%;
+  transform: rotate(720deg);
+}
+
+.lane:nth-child(even) .square {
+  transition-duration: 300ms, 300ms, 1s, 1s;
+  transition-timing-function: linear, linear, linear, linear;
+}
+
+.lane:nth-child(even):hover .square {
+  width: 25px;
+  height: 25px;
+  margin: 0% 90% 0% 0%;
+  transform: rotate(-720deg);
+}
+.squares:nth-child(even):hover {
+  transform: scale(0.5);
+  transition: all 300ms;
+  background-color: #6C8C54;
+  transition-property: none;
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+  animation: move 3s ;
+}
+
+/* ODD */
+.square#one {
+  background-color: #4E8DA6;
+}
+
+.square#three {
+  background-color: #097337;
+}
+
+.square#five {
+  background-color:#F2E1C2;
+  
+}
+
+.square#seven {
+  background-color:#F29F05;
+}
+
+.square#nine {
+  background-color: #F2B199;
+}
+
+.square#eleven {
+  background-color:#729577;
+}
+/* EVEN */
+.square#two {
+  background-color: #4C4430;
+}
+.square#four {
+  background-color: #BDC3C1;
+}
+.square#six {
+  background-color: #FBE666;
+}
+.square#eight {
+  background-color: #F5512D;
+}
+.square#ten {
+  background-color: #F1AD58;
+}
+.square#twelve {
+  background-color: #A3D1D7;
+}
+
+
+
+
+
+  
