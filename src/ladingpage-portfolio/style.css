@@ -21,7 +21,7 @@ h1 {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient( to right bottom, rgba(96, 215, 245, 0.8), rgba(1, 60, 107, 0.8)), url('./img/ella-jardim-A51hrcFHT-Y-unsplash.jpg');
+  background-image: linear-gradient( to right bottom, rgba(96, 215, 245, 0.8), rgba(1, 60, 107, 0.8)), url(./img/ella-jardim-A51hrcFHT-Y-unsplash.jpg);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -207,7 +207,7 @@ nav ul li {
   }
   
   a.btn, .btn-white, .btn-animated{
- margin:5px 10px;
+ margin:5px 10px;`
   }
  
 }
