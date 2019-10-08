@@ -17,7 +17,7 @@ h1 {
   font-size: 2rem;
 }
 
-/* *~*~*~*~ header *~*~*~*~  */
+/* header  */
 
 .header {
   height: 95vh;
@@ -29,7 +29,7 @@ h1 {
   position: relative;
 }
 
-/* *~*~*~*~ nav *~*~*~*~  */
+/* nav  */
 
 nav {
   height: 80px;
@@ -101,7 +101,7 @@ nav ul li {
   animation-fill-mode: backwards;
 }
 
-/* *~*~*~*~ header text *~*~*~*~ */
+/* header text */
 
 .text-box {
   display: flex;
@@ -181,7 +181,7 @@ nav ul li {
   animation-fill-mode: backwards;
 }
 
-/* //////  MEDIA QUERIES  /////// */
+/*  MEDIA QUERIES  */
 
 @media (max-width: 576px) {
   nav ul.nav-items--desktop {
@@ -207,7 +207,7 @@ nav ul li {
   }
   
   a.btn, .btn-white, .btn-animated{
- margin:5px 10px;`
+ margin:5px 10px;
   }
  
 }
@@ -216,7 +216,7 @@ nav ul li {
   body {
     padding: 0;
   }
-  header {
+  .header {
     background-position: top;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -238,7 +238,7 @@ nav ul li {
   }
 }
 
-/* ///////  KEYFRAMES  ///////// */
+/*  KEYFRAMES  */
 
 @keyframes moveInLeft {
   0% {
