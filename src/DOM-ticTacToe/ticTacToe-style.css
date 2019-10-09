@@ -45,7 +45,7 @@ button{
 .gamefield{
 	height:78vmin;
 	width:78vmin;
-	align:center;
+	text-align:center;
 	margin-left: auto;
   margin-right: auto;
 	position:relative;
@@ -55,8 +55,8 @@ div.square {
     width: 30%;
     padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:1.66%;
-    background-color: #fa07b1;
-		color: #ddd;
+    background-color: #fa07b1 !important;
+		color: #ddd !important;
 		text-align: center;
 		position:relative;
 /* 		vertical-align: top; */
@@ -71,8 +71,8 @@ div.results{
 	position:absolute;
 	top: 37%;
 	width:100%;
-	background:#b790e4;
-	color:#eee;
+	background:#b790e4 !important;
+	color:#eee !important;
 }
 .sign{
 	position:absolute;
