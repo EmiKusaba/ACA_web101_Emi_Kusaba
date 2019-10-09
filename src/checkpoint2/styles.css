@@ -164,6 +164,7 @@ article{
 .title{
   color: rgb(61, 61, 61);
   margin: 1%;
+  display: block;
 }
 #article_about{
   margin: 0% 10%;
@@ -186,7 +187,7 @@ article{
   display:flex;
 }
 .btn_location{
-  margin: 3%;
+  margin: 1%;
 }
 #austin{
   background-color: rgb(36, 36, 48);
@@ -198,6 +199,13 @@ article{
 }
 .inquiries_location{
   margin: 5% 0;
+}
+.card_location{
+  margin: 3%;
+}
+#article_location{
+  margin: 0% 10%;
+  padding: 5% 10%;
 }
 @media (max-width: 576px) {
   nav ul.nav-items--desktop {
