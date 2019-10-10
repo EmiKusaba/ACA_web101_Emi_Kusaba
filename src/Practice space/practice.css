@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua
+}
+h1{
+  font-size: 8rem;
+  margin: 0;
+}
+.game-grid{
+  width: 500px;
+  height: 500px;
+  border: 1px solid blue;
+  flex-wrap: wrap;
+  
+
+}
+.game-grid div{
+  border: 1px solid blue;
+  width: 32%;
+  height: 32%;
+  display: inline-block;
+  margin: .4%;
+  text-align: center;
+  
+
+} 
