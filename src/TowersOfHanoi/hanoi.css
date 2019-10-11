@@ -1,60 +1,132 @@
-*{
-  box-sizing: border-box;
-}
 
-
-
-[data-row] {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 34px;
-  margin: 25px;
-  border: 1px solid lightgray;
-}
-
-[data-row].red {
-  background-color: #f6c5c5;
-}
-
-[data-row].yellow {
-  background-color: #ffffa9;
-}
-
-[data-row].green {
-  background-color: #baf6ba;
-}
-
-[data-row].blue {
-  background-color: aliceblue;
-}
-
-[data-color] {
+[data-block] {
   width: 25px;
   float: left;
 }
-
-[data-color="blue"] {
-  height: 33px;
-  background-color: blue;
+/* blue */
+[data-block="25"] {
+  height: 25px;
+  background-color: #248ea6;
 }
 
-[data-color="green"] {
-  height: 33px;
-  background-color: green;
+/* green */
+[data-block="50"] {
+  height: 50px;
+  background-color: #25C7D9;
 }
-
-[data-color="red"] {
-  height: 33px;
-  background-color: red;
+/* red */
+[data-block="75"] {
+  height: 75px;
+  background-color:#F2762E;
 }
-
-[data-color="yellow"] {
-  height: 33px;
-  background-color: yellow;
+/* yellow */
+[data-block="100"] {
+  height: 100px;
+  background-color: #F23030;
 }
 
 #announce-game-won {
   font-size: 50px;
   text-align: center;
+}
+
+/* custom css below this line *******************************/
+
+body {
+  font: 300 20px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  background-color: rgb(235, 225, 230);
+  color: Navy;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 70vh;
+  width: 95vw;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+#game {
+  display: flex;
+}
+
+[data-stack] {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+  width: 120px;
+  height: 12px;
+  position: relative;
+  border-radius: 10px;
+  background: #222;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+[data-stack]:after {
+  content: " ";
+  width: 10px;
+  height: 60px;
+  box-shadow: 3px 0px #333;
+  border-radius: 10px;
+  position: absolute;
+  z-index: -1;
+  background: #222;
+  transform: translateX(-6px);
+}
+
+[data-block] {
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+}
+
+#announce-game-won {
+  text-align: center;
+}
+
+.game-win {
+  animation: spiral-up 700ms ease 1;
+}
+
+.selected {
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.05);
+  transform: translate(2rem, 0);
+  animation: pop 300ms ease-out 1;
+}
+
+.selected-stack {
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 2px 0px rgba(255, 255, 255, 0.85);
+}
+
+#moves{
+  text-align:center;
+}
+#moves:before{content:'moves: '}
+@keyframes pop {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(2rem, 0);
+  }
+}
+
+@keyframes spiral-up {
+  0% {
+    transform: rotate(-5deg);
+    margin: 0;
+  }
+  50% {
+    transform: rotate(5deg);
+    margin: 2px;
+  }
 }
