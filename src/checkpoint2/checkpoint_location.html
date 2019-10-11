@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>checkpoint2</title>
+</head>
+
+<body>
+  <header class="header">
+    <!--nav-->
+    <nav>
+      <ul class="nav-items--desktop">
+          <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint.html">
+            <li>HOME</li>
+          </a>
+        <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint_about.html">
+          <li>ABOUT</li>
+        </a>
+        <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint_location.html">
+          <li>LOCATION / CONTACT</li>
+        </a>
+        <a href="#"><li>SHOP</li></a>
+        <a href="#"><li>PRESS</li></a>
+      </ul>
+      <div class="mobile-nav-button" onclick="openNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-items--mobile">
+          <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint.html">
+            <li>HOME</li>
+          </a>
+          <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint_about.html">
+            <li>ABOUT</li>
+          </a>
+          <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/checkpoint2/checkpoint_location.html">
+            <li>LOCATION / CONTACT</li>
+          </a>
+          <a href="#"><li>SHOP</li></a>
+          <a href="#"><li>PRESS</li></a>
+      </ul>
+    </nav>
+    <!--hero-image-->
+    <div class="board_about">
+      <h3>THE PETTERN OF COFFEE AND PEOPLE</h3>
+      <img src="images/logo(2).png" class="logo">
+    </div>
+
+    <!--Article-->
+    <article id="article_location">
+      <!--image-->
+      <div class="imageSpace">
+        <img src="./images/jorge-dominguez-dAaeth0Je-k-unsplash.jpg" class="subimage">
+      </div>
+      <div class="cards_location">
+        <h2 class="title">LOCATIONS</h2>
+        <div class="locatins">
+          <button class="btn_location" id="austin">
+            <h3>Austin</h3>
+          </button>
+          <button class="btn_location" id="dallas">
+            <h3>Dallas</h3>
+          </button>
+        </div>
+      </div>
+      </div>
+      <div class="cards_location">
+        <div class="card_location">
+          <h3 class="title">AUSTIN – NORTH LAMAR</h3>
+          <h6><b>ADDRESS</b></h6>
+          <p>4200 N LAMAR BLVD
+            STE 120
+            AUSTIN, TX 78756</p>
+          <h6><b>PHONE</b></h6>
+          <p>(512) 531-9417</p>
+          <h6><b>HOURS</b></h6>
+          <p>MON - FRI: 6:30 AM – 7 PM<br>
+            SAT: 7:00 AM – 7 PM<br>
+            SUN: 7:00 AM – 7 PM</p>
+        </div>
+        <div class="card_location">
+          <h3 class="title">AUSTIN – DOWNTOWN</h3>
+          <h6><b>ADDRESS</b></h6>
+          <p>401 CONGRESS AVE
+            STE 100C
+            AUSTIN, TX 78701</p>
+          <h6><b>PHONE</b></h6>
+          <p>(512) 394-6051</p>
+          <p><b>HOURS</b></p>
+          <p>MON – FRI: 6:30 AM – 7 PM<br>
+            SAT & SUN: 7 AM – 5 PM<br>
+          </p>
+        </div>
+        <div class="card_location">
+          <h3 class="title">AUSTIN – ROCK ROSE</h3>
+          <h6><b>ADDRESS</b></h6>
+          <p>11501 ROCK ROSE
+            STE 118
+            AUSTIN, TX 78758</p>
+          <h6><b>PHONE</b></h6>
+          <p>(512) 243-7963</p>
+          <h6><b>HOURS</b></h6>
+          <p>MON - SUN 7 AM – 9PM<br>
+          </p>
+        </div>
+      </div>
+      <div class="inquiries_location">
+        <div class="cards_inquiries">
+          <h3 class="title">INQUIRIES</h3>
+          <P class="links">howdy//houndstoothcoffee.com</P>
+        </div>
+        <div class="cards_inquiries">
+          <h3 class="title">INTERESTED IN A CAREER AT HOUNDSTOOTH?</h3>
+          <p>Submit a resume and a cover letter with your preferred city of employment to
+          </p>
+          <P class="links">howdy//houndstoothcoffee.com</P>
+        </div>
+      </div>
+    </article>
+
+
+
+    <!--footer-->
+    <section class="footer">
+      <h3>@2019 HOUNDSTOOTH COFFEE</h3>
+      <div class="icons">
+        <img src="images/facebook.png" class="icon">
+        <img src="images/twitter.png" class="icon">
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="./checkpoint2.js"></script>
+</body>
+
+</html>
