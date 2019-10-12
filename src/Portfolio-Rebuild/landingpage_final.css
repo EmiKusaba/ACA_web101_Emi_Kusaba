@@ -55,6 +55,7 @@ section {
 }
 
 .jumbotron, .jumbotron-fluid {
+  
   background-image: linear-gradient(
       to right bottom,
       rgba(96, 215, 245, 0.8),
@@ -262,6 +263,10 @@ a,.fmenu{
 /* Media for Home Page */
 
 @media (min-width: 451px) and (max-width: 700px) {
+  .heading-primary{
+   margin-top: 50px !important;
+  }
+  
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -288,6 +293,11 @@ a,.fmenu{
   
 }
 @media (min-width: 701px){
+  .heading-primary{
+    margin-top: 100px !important;
+    margin-left: 500px;
+   }
+   
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
