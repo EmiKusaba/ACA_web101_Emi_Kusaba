@@ -1,0 +1,44 @@
+h1 {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+a{
+  font-family:'Source Sans Pro', sans-serif;
+}
+h5 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-brand{
+  color: black !important;
+}
+.nav-link{
+  color: black !important;
+}
+#emi-logo{
+  width: 70px;
+}
+/* footer */
+.footer{
+  margin: 0;
+  padding: 5%;
+  background-color: grey;
+}
+.emifooter{
+  color: white;
+}
+a,.fmenu{
+  display:flex;
+  justify-content: space-around;
+  color: white !important;
+  padding: 3%;
+}
+.icons{
+  display: flex;
+  justify-content: flex-end;
+}
+.icon{
+  width: 5vh;
+}

@@ -3,8 +3,8 @@ h1 {
   font-family: 'Merriweather', serif;
   color: white;
 }
-h4{
-
+a{
+  font-family:'Source Sans Pro', sans-serif;
 }
 h5 {
   margin-bottom: 0;
@@ -208,7 +208,7 @@ button {
 /* footer */
 .footer{
   margin: 0;
-  padding: 7%;
+  padding: 5%;
   background-color: grey;
 }
 .emifooter{
@@ -262,7 +262,7 @@ a,.fmenu{
 }
 /* Media for Home Page */
 
-@media (min-width: 451px) and (max-width: 700px) {
+@media (min-width: 451px) and (max-width: 990px) {
   .heading-primary{
    margin-top: 50px !important;
   }
@@ -292,9 +292,9 @@ a,.fmenu{
   }
   
 }
-@media (min-width: 701px){
+@media (min-width: 991px){
   .heading-primary{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
     margin-left: 500px;
    }
    
