@@ -50,6 +50,7 @@ h5 {
 }
 .card:hover{
   border: 3px solid orange;
+  transform: scale(1.2);
 }
 /* footer */
 .footer{
