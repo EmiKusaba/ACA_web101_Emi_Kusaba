@@ -1,7 +1,7 @@
 h1 {
   font-size: 2rem;
   font-family: 'Merriweather', serif;
-  color: rgb(10, 87, 10);
+  color:grey;
 }
 
 h4 {
@@ -46,7 +46,7 @@ section {
 .footer {
   margin: 0;
   width: 100%;
-  padding: 7%;
+  padding: 5%;
   background-color: grey;
 }
 
