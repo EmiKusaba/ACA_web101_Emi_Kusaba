@@ -1,0 +1,359 @@
+<!Doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First bootstrap Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro|Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--Nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <img src="images/7357d551-fe79-40fd-9dd4-52507241a7af_200x200.png" class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> <strong>Home </strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Works
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">UI Redesign For Department of Energy</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="case_study1.html">Redesign Website: <br>Greyhound Rescue
+                            Austin</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Butler Travel App</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Inquery</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Download Resume</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    </div>
+    <!--heroimage-->
+
+    <section class="article">
+        <img src="images/hero.png" class="img-fluid" id="hero" alt="Responsive image">
+        <div class="cards">
+            <h2 class="title">Redesign Non Profit Organization: Greyhound Rescue Website
+            </h2>
+            <p>Choose a non-profit organization and execute a high-fidelity prototype with Responsive Web Design (RWD)
+                for a
+                better user experience to support the mission of the non-profit.
+            </p>
+        </div>
+        <!--Overview-->
+
+        <div class="overview_card cards">
+            <h2 class="overview">Overview</h2>
+            <h4 class="role">Team Size + Role & Responsibility
+            </h4>
+            <h5 class="team">Team:</h5>
+            <p> Darren Schmidt (UX Researcher) / SooJin Park (UX Designer) / Emi Kusaba (UI designer)
+            </p>
+            <h5 class="timeline">Timeline:</h5>
+            <p> 3 weeks</p>
+        </div>
+        <div class="research_card cards">
+            <h2 class="research">Research</h2>
+
+            <!--problem statement-->
+            <h4 class="problemstatement">Scope and Problem Statement</h4>
+            <p id="problemstatement1">Current website hinders the mission of the GRA due to outdated visuals and a lack
+                of perceived professionalism.
+                Users struggle to use the site for main activities (adopting, fostering, volunteering).
+                Redesign the GRA website around users’ primary needs (adopting, fostering, volunteering) and display the
+                legitimacy of the site.
+            </p>
+            <div class="img-problemstatement centered">
+                <img src="images/Screen Shot 2019-08-13 at 11.15.23.png" class="problemstatement "
+                    style="width:70%; height:70%;" alt="Responsive image">
+            </div>
+            <h4 class="userparsona"> User Persona:</h4>
+
+            <p id="userparsona1">We decided our users persona, who want to have a relaxing time with adult upper middle
+                size dogs with calm characters.. Pain points are living apartment (no backyard) and full time work. (8
+                hours a day)</p>
+            <!--userflow-->
+        </div>
+        <div class="cards">
+            <h2 class="design_card">Responsive: Building the Design Across Multiple Breakpoints
+            </h2>
+            <h4 class="userflow">User flow:</h4>
+            <p class="userflow1">We created accessible pages organization to find Greyhounds. Thet clean main menu opens
+                child pages by User flow.
+            </p>
+        </div>
+        <div class="userflow-img centered">
+            <img src="images/userflow.jpg" class="img-fluid" alt="Responsive image" style="width:70%; height:70%;">
+        </div>
+        <ol>
+            <li>GRA home page </li>
+            <li>Check mark in a search filter (filtered dog search: age 4-6)
+            </li>
+            <li>Filtered list of dog (Hover over to view a dog’s “scores”)
+
+            </li>
+            <li>Click on “Dancer”
+            </li>
+            <li>Information about “Dancer”
+            </li>
+            <li>Contact Us (Pop up
+                →Contact fill out form）
+            </li>
+        </ol>
+        <div class="cards">
+            <h4 class="cardsorting">Card Sorting:</h4>
+            <p>In order to maximize Cindy’s experience, setting a clear and concise navigation bar was important. We
+                divided main parts of what users looked for at the site and marked them as primary navigations. We,
+                then, created secondary navigations to further provide and assist people who are on the site to learn or
+                help greyhounds.
+                Footer was left simple yet intuitive with social media functions to connect better with users who use
+                multiple platforms.
+            </p>
+        </div>
+
+        <!--wireframe-->
+        <div class="cards">
+            <h4 class="wireframe1"> Wire Frame:</h4>
+            <p>We started with a rough sketch for paper prototype with all our brainstormed ideas. We tried to
+                incorporate informative, simple, and modern design with carousel hero image and card layout to ease
+                user’s experience by dividing components into main activities centering around adoption, foster, and
+                donation.
+            </p>
+            <div class="sketches centered">
+                <img src="images/Screen Shot 2019-08-16 at 13.43.43.png" style="width:70%; height:70%;">
+            </div>
+            <div class="wireframe centered">
+                <img src="images/Screen Shot 2019-08-16 at 13.44.07.png" style="width:70%; height:70%;">
+            </div>
+        </div>
+
+        <h4 class="wireframe2">User’s major needs:</h4>
+        <ul>
+            <li>Find available dogs to adopt, foster or donate</li>
+            <li>Be able to donate to help rehabilitate greyhounds
+            </li>
+            <li>Learn about greyhounds
+            </li>
+            <li>Find suitable greyhounds for user
+            </li>
+        </ul>
+        <div class="cards">
+            <h2 class="wireframe3">Our new, redesigned website
+            </h2>
+
+            <!--redesign UI Elemets-->
+            <h4 class="redesign">Stylizing UI Element</h4>
+            <p>We chose a green color as Primary color for the website. We wish restful, cheerful, and health-giving to
+                Greyhounds. We thought green color is the best color for it. Light green is to be young mind, and Olive
+                color to be meaningful as high class looks.
+                After we decided key colors, We checked accessibility for readable and enough contrast with background
+                and text color.
+            </p>
+            <div class="ui-elements centered">
+                <img src="images/Style-Tile-Greyhound.png" class="img-uielements" alt="Responsive image"
+                    style="width:70%; height:70%;">
+            </div>
+
+            <ul>
+                <li>“Stories and images look recent and relevant.”
+                </li>
+                <li>“It shows exactly what I’m looking for when choosing a greyhound.”</li>
+                <li>“I can connect with the GRA site on a personal level.”
+                </li>
+                <li>“Navigation is straightforward & well-done.”
+                </li>
+            </ul>
+        </div>
+        <div class="cards">
+            <h4 class="usertesting">User Testing + Outcomes
+            </h4>
+            <P> I conducted in-person usability tests with 4 participants and received feedback.
+            </P>
+            <h5>General Questions:
+            </h5>
+            <ul>
+                <li>Can the user(s) successfully use the main navigation pages?
+                </li>
+                <li>Can the user(s) successfully use the secondary navigation features?
+                </li>
+                <li>What confused the user(s)?
+                </li>
+                <li>What did user(s) think of the “Compatibility Score” - stars and categories i.e. “Alone, Cats” etc.
+                </li>
+                <li>Does it make sense to use the “Adopt Me!” to “Contact Us” about Dancer?<br>...And What do they think
+                    about the pre-filled sentence in the “Message” field
+                </li>
+            </ul>
+        </div>
+        <div class="cards">
+            <h5 class="outcome">Outcome:</h5>
+            <ul>
+                <li style="color:red">Expecting to see some part of hm page below top header image. Right now all the
+                    user sees is image and no hint of what is below (more images, etc.)
+                </li>
+                <li style="color:red">Difficult to see/read buttons (green) </li>
+                <li>Use of dots at bottom to show image progress - then expected to see dots at
+                </li>
+            </ul>
+        </div>
+        <div class="cards">
+            <h4>Lo-Fi to Hi-Fi Wireframe </h4>
+            <p>
+                The primary Greyhound logo is made up of two components: the Greyhound graphic and the name of the
+                company.<br>
+
+                <strong>Typography: </strong><br>
+                Arial,create an animal saving life experience that is basic, simple, and unadorned, with no extra
+                decorations. Typography Baloo Paaji is a distinctive heavy style using a subtle tinge of
+                playfulness.<br>
+                <strong>Icon: </strong><br>
+                Simple icons are used to represent navigational functions
+            </p>
+            <div class="iteration centered">
+                <img src="images/Screen Shot 2019-08-16 at 16.34.29.png" style="width:70%; height:70%;">
+            </div>
+        </div>
+        <div class="cards">
+            <h4 class="ab_testing">A / B Testing: </h4>
+            <p>We had A/B Testing and figured out what icon and information is attractive to users. </p>
+
+            <p>Favorite Dancer (Heart or Star)
+            </p>
+        </div>
+        <!--<div class="dancer centered">
+            <img src="images/Screen Shot 2019-08-16 at 13.34.13.png" class="img-dancer"style="width:70%"style="height:auto";>
+        </div>
+    -->
+        <div class="prototype-click centered">
+            <a href="https://xd.adobe.com/view/595a74bb-11d4-4222-553f-0b46ab1ceca4-2f6b/" class="centered">
+                <img src="images/Web 1920 – 3.png" class="img-click" style="width:70%; height:90%;">
+            </a>
+        </div>
+        <div class="cards">
+            <h4 class="lessonlearned">Lessons Learned</h4>
+            <p>We set out to redesign the GRA website around users’ primary needs of adopting greyhound dogs.
+                We believe our redesign not only modernizes the GRA website to the users’ needs, it legitimizes the
+                mission of this non-profit : Rescue Greyhounds. </p>
+        </div>
+        <div class="cards">
+            <h4 class="future-op">Future Opportunities
+            </h4>
+            <p>Reach out to the GRA and discuss the prospect of using our redesign in support of their non-profit
+                mission.
+            </p>
+        </div>
+        <div class="image-both centered">
+            <img src="images/Screen Shot 2019-08-16 at 16.06.26.png" class="img-both" style="width:100%; height:100%;">
+        </div>
+
+
+
+
+    </section>
+
+    <!--footer-->
+    <div class="content">
+        </div>
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/7357d551-fe79-40fd-9dd4-52507241a7af_200x200.png" height=70px width=auto;>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="btn-group">
+                            <!-- Default dropright button -->
+                            <button type="button" class="btn btn-secondary btn-lg" style="background-color:#3c3d41;"
+                                onclick="window.location.href = 'index.html'">
+                                Home
+                            </button>
+                            </a>
+                        </div>
+                        <!-- Default dropdown button -->
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" style="background-color:#3c3d41;">
+                                Works
+                            </button>
+                            <div class="dropdown-menu">
+                                UI Redesign For Department of Energy
+                                <div class="dropdown-divider"></div>
+                                <a class="home_f" href="case_study1.html">
+                                    Non-profit organization: Greyhound Rescue Austin
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                Travel App Butler
+    
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" style="background-color:#3c3d41;">
+                                Contact
+                            </button>
+                            <div class="dropdown-menu">
+                                Inquiry
+                                <div class="dropdown-divider"></div>
+                                Download Resume
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 icons">
+                        <div class="icon">
+                            <a href="https://www.instagram.com/emikusba/?hl=ja">
+                                <img src="images/instagram.png" height="40px" data-toggle="tooltip" data-placement="top"
+                                    title="Instagram">
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/emi-kusaba-b6942b93/">
+                                <img src="images/linkedin.png" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/emi.kusaba.1">
+                                <img src="images/facebook.png" data-toggle="tooltip" data-placement="top" title="Facebook">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </body>
