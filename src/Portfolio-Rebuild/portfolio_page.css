@@ -28,6 +28,9 @@ h5 {
   width: 70px;
 }
 /* project */
+.card-img-top{
+  height: 200px;
+}
 .project{
   margin: 0;
   padding: 3% 5%;
@@ -36,7 +39,9 @@ h5 {
 .project_title{
   margin: 3%;
 }
+
 .row{
+
   margin:0 5%;
 }
 .card-body{
@@ -52,6 +57,13 @@ h5 {
   border: 3px solid orange;
   transform: scale(1.2);
 }
+.skills{
+  margin: 0 5%;
+}
+.skills_title{
+  margin: 0;
+}
+
 /* footer */
 .footer{
   margin: 0;
