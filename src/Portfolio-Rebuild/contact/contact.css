@@ -5,8 +5,8 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-family: 'Merriweather', serif;
-  color: rgb(10, 87, 10);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
 }
 
 h4 {
@@ -145,7 +145,7 @@ sup {color: rgba(255, 0, 0, 0.71);
 
 .footer {
   margin: 0;
-  padding: 7%;
+  padding: 3%;
   background-color: grey;
   width: 100%;
 }
