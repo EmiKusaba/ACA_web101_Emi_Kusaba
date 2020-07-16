@@ -9,6 +9,9 @@ section{
   margin:15px 0px;
 }
 a{
+  color:white;
+}
+a:hover{
   color:rgb(128, 215, 241);
 }
 nav{
@@ -42,7 +45,7 @@ h3{
   margin:10px 0px;
 }
 h5{
-  font-size:1.1rem;
+  font-size:1rem;
   margin:5px 0px;
   font-family: 'Lato', sans-serif;
 }
