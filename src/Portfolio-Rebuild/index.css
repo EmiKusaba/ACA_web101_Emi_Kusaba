@@ -1,0 +1,431 @@
+
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+a{
+  font-family:'Source Sans Pro', sans-serif;
+}
+h5 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-brand{
+  color: black !important;
+}
+.nav-link{
+  color: black !important;
+}
+#emi-logo{
+  width: 70px;
+}
+#lead{
+  color: white;
+}
+.heading-primary {
+  /* text-transform: uppercase; */
+  /* margin-bottom: 60px; */
+  padding: 2em;
+}
+.heading-primary-main {
+  color: white;
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  animation: moveInRight 1s ease-out;
+}
+
+main {
+  margin: 5% 5%;
+}
+
+section {
+  margin: 5% 5%;
+}
+
+.jumbotron, .jumbotron-fluid {
+  
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(96, 215, 245, 0.8),
+      rgba(1, 60, 107, 0.8)
+    ),
+    url('./img/img/ella-jardim-A51hrcFHT-Y-unsplash.jpg');
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative; 
+  /* background-image: url('https://media.giphy.com/media/9J8K8WEWLXZk7s0OMB/giphy.gif'); */
+  /* background-repeat: no-repeat; */
+  padding: 3%;
+  height: 100vh; 
+  /* margin: 2%; */ 
+}
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777 !important;
+  margin: 1rem 1em;
+}
+
+.btn::after {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn-animated {
+  animation: moveFromBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+
+/* .ex-3, .example{
+  padding: 2%;
+
+}
+.ex-3 button.b-1, .ex-3 button.b-2 {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  margin-right: .25rem;
+  padding: 1%;
+  /* border-radius: 10%; */
+/* }
+
+.ex-3 button.b-1:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+}
+
+.ex-3 button.b-2:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  padding: 1%; */
+  /* border-radius: 10%; */
+/* } */ 
+
+/* My Specialities */
+
+.specialities {
+  border: 1px solid grey;
+  background-color: rgb(238, 237, 237);
+  /* display: flex;
+  justify-content: center; */
+  padding: 1rem;
+  height: 200px;
+}
+
+/* How I built Skills */
+
+/* inform */
+.contactform{
+  background: -moz-linear-gradient(top, hsl(274, 62%, 95%) 0%, hsl(208, 72%, 89%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 87%, 75%) 0%, hsl(208, 89%, 75%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 79%, 74%) 0%, hsl(208, 90%, 69%) 100%);
+  margin-top: 5%;
+  padding: 10%;
+}
+button {
+  background-color: rgb(0, 102, 255);
+  color: white;
+}
+.myphoto{
+  width: 50%;
+  border-radius: 50%; 
+  margin-bottom: 3%;
+  
+}
+input {
+  border: 2px solid rgb(118, 118, 119);
+  margin-top: -3%;
+}
+/* button */
+.button{
+  margin: 1%;
+}
+#submit {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  margin-right: .25rem;
+  padding: 1%;
+}
+
+#submit:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: -webkit-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+}
+#reset{
+  background-color: grey;
+  color: white;
+}
+
+/* footer */
+.footer{
+  margin: 0;
+  padding: 5%;
+  background-color: grey;
+}
+.emifooter{
+  color: white;
+}
+a,.fmenu{
+  display:flex;
+  justify-content: space-around;
+  color: white !important;
+  padding: 3%;
+}
+.icons{
+  display: flex;
+  justify-content: flex-end;
+}
+.icon{
+  width: 5vh;
+}
+@media (max-width: 450px) {
+  #emi-logo{
+    width: 70px;
+  }
+  .heading-primary{
+    padding: 15% 5%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    height: 200px;
+    margin: 1%;
+    padding: 2%;
+    margin-bottom: 650px;
+    grid-gap: .5rem;
+  }
+  .specialities {
+    height: 200px;
+    padding: 1em;
+  }
+  .video {
+    width: 100%;
+    height: 40%;
+  }
+
+  #email{
+    width: 300px; 
+    height: 40px;
+  }
+  #name{
+    width: 300px;
+    height: 40px;
+  }
+  #message{
+    width: 300px;
+    height: 250px;
+  }
+  
+  .contactform{
+    padding: 3% 3%;
+    text-align: center;
+  }
+  .fmenu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 1rem;
+  }
+}
+
+/* Media for Home Page */
+
+@media (min-width: 451px) and (max-width: 990px) {
+  .heading-primary{
+   margin-top: 50px !important;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    height: 200px;
+    margin: 1%;
+    margin-bottom: 250px;
+    grid-gap: 1em;
+    /* border: 1px solid grey; */
+  }
+  .contactform{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+}
+  .video {
+    width: 80%;
+    height: 60%;
+  }
+  #email{
+    width: 350px; 
+    height: 50px;
+  }
+  #name{
+    width: 350px;
+    height: 50px;
+  }
+  #message{
+    width: 350px;
+    height: 250px;
+  }
+  button{
+    width: 150px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 1rem;
+  }
+  input {
+    border: 2px solid rgb(118, 118, 119);
+    width: 85%;
+    margin-top: -3%;
+  }
+}
+@media (min-width: 991px){
+  .heading-primary{
+    margin-top: 50px !important;
+    margin-left: 500px;
+   }
+   
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5%;
+    width: 95%;
+    height: 200px;
+    grid-gap: 1em;
+    /* border: 1px solid grey; */
+  }
+  .video {
+    width: 60%;
+    height: 60%;
+  }
+  #email{
+    width: 400px; 
+    height: 50px;
+  }
+  #name{
+    width: 400px;
+    height: 50px;
+  }
+  #message{
+    width: 400px;
+    height: 250px;
+  }
+  .specialities {
+    padding: .4em;
+  }
+.contactform{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  padding: 5%;
+}
+button{
+  width: 150px;
+  height: 70px;
+  border-radius: 100px;
+  margin: 1rem;
+}
+input {
+  border: 2px solid rgb(118, 118, 119);
+  width: 85%;
+  margin-top: -3%;
+}
+}
+
+/* ///////  KEYFRAMES  ///////// */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

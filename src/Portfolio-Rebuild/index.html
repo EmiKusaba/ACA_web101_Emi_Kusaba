@@ -6,28 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro|Source+Serif+Pro&display=swap"
     rel="stylesheet">
   <link rel="resetsheet" href="./reset.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./animate.css">
+  <link rel="stylesheet" href="./index.css">
 
-  <title>Portfolio-Rebuild</title>
+  <title>Emi.K</title>
 </head>
 
 <body>
   <!--Nav-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Emi.K</a>
+      <a class="navbar-brand" href="#"> <img src="./img/img/83317805-4c48-4292-a4d6-4dc7d477fd33_200x200.png"
+          aria-hidden="true" id="emi-logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,37 +28,38 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link"
+              href="index.html"><b>Home
+              </b><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link"
+              href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+            <a class="nav-link"
+              href="portfolio_page.html">Portfolio</a>
           </li>
         </ul>
       </div>
     </nav>
     <!--Hero image-->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Hi! I am Emi</h1>
-        <p class="lead">I am UI designer also Web Developer! <br>
-          I based in Austin TX USA.</p>
-        <div class="ex-3 example">
+      <!-- <div class="container"> -->
+      <h1 class="heading-primary">
+        <span class="heading-primary-main">Hi, I am Emi.</span>
+        <span id="lead" class="heading-primary-sub">I am a UI designer and web developer based in Austin, TX, USA.</span>
+        <!-- <div class="ex-3 example">
           <button class="b-1">DOWNLOAD RESUME </button>
           <button class="b-2">DOWNLOAD PORTFOLIO</button>
+        </div> -->
+        <div class="btn-sets">
+          <a href="https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/Portfolio-Rebuild/portfolio_page.html"
+            class="btn btn-white btn-animated">PORTFOLIO</a>
+          <a href=" https://emikusaba.github.io/ACA_web101_Emi_Kusaba/src/wireframes/wireframe.html"
+            class="btn btn-white btn-animated">RESUME</a>
         </div>
-      </div>
+    </div>
     </div>
     </div>
   </header>
@@ -75,52 +69,52 @@
     <div class="grid">
       <div class="specialities">
         <h4>UX</h4>
-      <h5>Skills</h5>
-      <h6>User Reseach</h6>
-      <h6>User Parsona / Story Board</h6>
-      <h6>Wire Frame</h6>
-      <h5>Tools</h5>
-      <h6>Miro / Microsoft</h6>
+        <h5>Skills</h5>
+        <h6>User Research</h6>
+        <h6>User Persona / Story Board</h6>
+        <h6>Wire Frame</h6>
+        <h5>Tools</h5>
+        <h6>Miro / Microsoft Office</h6>
       </div>
       <div class="specialities">
         <h4>UI</h4>
         <h5>Skills</h5>
-        <h6>Fonts / Accessible Color and Icons / MockUp</h6>
-       
-      <h5>Tools</h5>
-      <h6>Adobe XD / PhotoShop</h6>
+        <h6>Fonts / Accessible Colors and Icons / Mock Ups</h6>
+
+        <h5>Tools</h5>
+        <h6>Adobe XD / Adobe Photoshop</h6>
       </div>
       <div class="specialities">
         <h4>Front-end</h4>
         <h5>Skills</h5>
-        <h6>HTML / CSS / Javascript / GitHub</h6>
-      <h5>Tools</h5>
+        <h6>HTML / CSS / Javascript / Git / React.js</h6>
+        <h5>Tools</h5>
         <h6>Visual Studio Code / Sublime</h6>
       </div>
       <div class="specialities">
         <h4>Back-end</h4>
         <h5>Skills</h5>
-        <h6>Not yet</h6>
-      <h5>Tools</h5>
-      <h6>Not yet</h6>
+        <h6>Node.js / SQL / REST APIs / Python</h6>
+        <h5>Tools</h5>
+        <h6>PostgreSQL / MySQL / Heroku</h6>
       </div>
     </div>
   </main>
   <!--How I built my skills-->
   <section class="skills">
     <h2>How I built my skills?</h2>
-    <p>I graduated from Information Technology at Cyber University in Japan. After that, I studied UI / UX from Boot
-      Champ at University of Texas, also Fullstuck Web Development at Austin Coding Academy. </p>
-    <div class="iframe">
+    <p>I graduated with a Bachelors degree in Information Technology from Cyber University in Japan. After that, I studied UI / UX from the
+            University of Texas' UI / UX Boot Camp, and also Full Stack Web Development at Austin Coding Academy. </p>
+    <!-- <div class="iframe">
       <h5>About ACA</h5>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/RvlytBUgpa4" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
         class="video"></iframe>
-    </div>
+    </div> -->
   </section>
 
   <!--Contact form-->
-  <div class="contactform">
+  <!-- <div class="contactform">
     <div class="initialmessage">
       <img src="./img/myProfilePic.jpg" alt="me" class="myphoto"><br>
       <p>Thank you for taking a look my website!
@@ -139,32 +133,38 @@
         <button id="reset">Reset</button>
       </div>
     </form>
-  </div>
+  </div> -->
   <!--footer-->
   <section class="footer">
-    <h4 class="emifooter">EMI.K</h4>
+    <div class="emifooter"><a class="navbar-brand" href="#"> <img
+          src="./img/img/83317805-4c48-4292-a4d6-4dc7d477fd33_200x200.png" aria-hidden="true" id="emi-logo"></a></div>
     <div class="fmenu">
-      <a href="">HOME</a>
-      <a href="">ABOUT</a>
-      <a href="">PORTFOLIO</a>
-      <a href="">CONTACT</a>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="portfolio_page.html">PORTFOLIO</a>
     </div>
     <div class="icons">
       <div class="icon">
-        <a href="#"></a>
-        <img src="./img/facebook.png" alt="facebook" class="icon">
+        <a href=" https://github.com/EmiKusaba/">
+          <img src="./img/github-logo.png" alt="github" class="icon">
       </div>
+      </a>
       <div class="icon">
-        <a href="#"></a>
-        <img src="./img/instagram.png" alt="imstagram" class="icon">
+        <a href="https://www.linkedin.com/in/emi-kusaba-b6942b93/">
+          <img src="./img/linkedin 2.png" alt="linkedin" class="icon">
       </div>
-      <div class="icon">
-        <a href="#"></a>
-        <img src="./img/linkedin.png" alt="linkedin" class="icon">
-      </div>
+      </a>
     </div>
   </section>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
