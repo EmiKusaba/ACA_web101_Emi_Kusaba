@@ -6,7 +6,6 @@ h1 {
 
 h4 {
   font-size: 1.25rem;
-  margin-top: 3%;
 }
 
 h5 {
@@ -86,7 +85,6 @@ ol {
   .my-img {
     width: 40vw;
     height: 70hv;
-    margin: 3%;
   }
   .section-1 {
     text-align: center;
@@ -101,7 +99,6 @@ i{
   .my-img {
     width: 50vw;
     height: 80hv;
-    margin: 3%;
   }
   .section-1 {
     text-align: center;
@@ -113,15 +110,12 @@ i{
 
 @media (min-width:991px) {
   .my-img {
-    width: 32vw;
+    width: 30vw;
     height: 65hv;
-    margin: 3%;
     margin-top: 50px;
   }
   .section-1 {
     text-align: center;
-    /* margin-top: 125px; */
-    margin-left: -10px;
     background-color: burlywood;
     text-align: center;
   }
@@ -139,7 +133,7 @@ i{
   }
   .section-2 {
     margin: 3%;
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .about-me {
     margin-left: 5%;
