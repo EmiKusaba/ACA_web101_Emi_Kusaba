@@ -104,12 +104,13 @@ main{
   grid-template-columns:1fr;
   margin:2% 0%;
 }
-body{
-  width:99%;
+ /* body{
+  width:99%; 
   border:1px solid black;
-}
+}  */
 main{
   padding:2%;
+  border:1px solid black;
 }
 }
 
@@ -122,10 +123,11 @@ main{
   }
   body{
     width:90%;
-    border:1px solid black;
-  }
+    /* border:1px solid black; */
+  } 
   main{
     padding:2%;
+    border:1px solid black;
   }
   .detail h6{
     text-align: right;
